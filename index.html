@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Julio, desarrollador web junior. Proyectos, habilidades y contacto.">
+  <title>Julio — Desarrollador web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">julio<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a class="contact-link" href="#contacto">Contacto <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-main">
+        <p class="availability"><span></span> ABIERTO A NUEVAS OPORTUNIDADES</p>
+        <h1>Desarrollo web con<br><span>intención y detalle.</span></h1>
+        <p class="hero-intro">Hola, soy Julio. Desarrollador web junior y estudiante de DAW. Construyo experiencias
+          digitales sencillas, funcionales y cuidadas.</p>
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#proyectos">Explorar proyectos <span>↓</span></a>
+          <a class="button button-text" href="#contacto">Hablemos <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-aside">
+        <div class="abstract-mark" aria-hidden="true">
+          <div class="mark-ring ring-one"></div>
+          <div class="mark-ring ring-two"></div>
+          <div class="mark-square"></div>
+          <div class="mark-dot"></div>
+          <span class="mark-bracket">{ }</span>
+        </div>
+        <p class="aside-caption">DISEÑO CLARO.<br>CÓDIGO CON PROPÓSITO.</p>
+      </div>
+      <div class="hero-bottom"><span>HTML · CSS · JAVASCRIPT</span><a href="#sobre-mi">DESCUBRE MI PERFIL
+          <span>↓</span></a></div>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="container two-column">
+        <div class="section-label"><span>01</span> SOBRE MÍ</div>
+        <div class="section-content">
+          <h2>Me gusta resolver problemas y convertir ideas en <em>experiencias web.</em></h2>
+          <div class="about-paragraphs">
+            <p>Estoy cursando el ciclo de Desarrollo de Aplicaciones Web (DAW), donde sigo desarrollando mis
+              conocimientos de programación y diseño web.</p>
+            <p>Me interesa especialmente el front-end: crear interfaces intuitivas, adaptables y accesibles. Mi objetivo
+              es seguir aprendiendo, trabajar en equipo y avanzar hacia el desarrollo full-stack.</p>
+          </div>
+          <a class="underlined-link" href="#contacto">Conoce más sobre mí <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-label"><span>02</span> HABILIDADES</div>
+        <div class="skills-intro">
+          <h2>Las bases de<br>lo que <em>construyo.</em></h2>
+          <p>Estas son las herramientas que utilizo para desarrollar mis proyectos y que continúo perfeccionando con la
+            práctica.</p>
+        </div>
+        <div class="skills-list">
+          <article class="skill-row"><span class="skill-number">01</span>
+            <div class="skill-name">
+              <h3>HTML5</h3>
+              <p>Estructura semántica y accesible</p>
+            </div><span class="skill-symbol">⌘</span>
+          </article>
+          <article class="skill-row"><span class="skill-number">02</span>
+            <div class="skill-name">
+              <h3>CSS3</h3>
+              <p>Diseño responsive, Flexbox y Grid</p>
+            </div><span class="skill-symbol">✳</span>
+          </article>
+          <article class="skill-row"><span class="skill-number">03</span>
+            <div class="skill-name">
+              <h3>JavaScript</h3>
+              <p>DOM, interactividad y consumo de APIs</p>
+            </div><span class="skill-symbol">JS</span>
+          </article>
+          <article class="skill-row"><span class="skill-number">04</span>
+            <div class="skill-name">
+              <h3>Git & GitHub</h3>
+              <p>Control de versiones y colaboración</p>
+            </div><span class="skill-symbol">↗</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-label"><span>03</span> PROYECTOS SELECCIONADOS</div>
+        <div class="projects-intro">
+          <h2>Aprender haciendo.<br><em>Proyecto a proyecto.</em></h2>
+          <p>Una selección de proyectos personales y académicos en los que practico diseño, lógica e integración de
+            datos.</p>
+        </div>
+        <div class="project-list">
+          <article class="project">
+            <div class="project-visual visual-study">
+              <img src="Captura de pantalla 2026-10-16 122110.png" alt="">
+            </div>
+            <div class="project-description">
+              <div>
+                <div class="project-type">APP DE ORGANIZACIÓN</div>
+                <h3>Weather app</h3>
+                <p>Concepto de aplicación para saber la temperatura local y de otras ciudades de españa.</p>
+                <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              </div>
+              <a class="project-link" target="_blank" href="https://julioseraf.github.io/Weather-App/" aria-label="Consultar sobre TimetoEstudy">↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-visual visual-form">
+              <img src="Captura de pantalla 2026-10-16 122715.png" alt="" srcset="">
+            </div>
+            <div class="project-description">
+              <div>
+                <div class="project-type">FORMULARIO INTERACTIVO</div>
+                <h3>MultiStepForm</h3>
+                <p>Formulario de registro dividido en varios pasos, con una interfaz clara y estilos personalizados.</p>
+                <div class="tags"><span>JavaScript</span><span>CSS</span><span>HTML</span></div>
+              </div>
+              <a class="project-link" href="https://julioseraf.github.io/multiStepForm/" target="_blank" rel="noreferrer"
+                aria-label="Ver proyectos en GitHub">↗</a>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-visual visual-world">
+              <img src="restWorld.png" alt="" srcset="">
+              
+            </div>
+            <div class="project-description">
+              <div>
+                <div class="project-type">EXPLORADOR DE PAÍSES</div>
+                <h3>RestCountries</h3>
+                <p>Aplicación para explorar y filtrar información de países utilizando una API y datos en formato JSON.
+                </p>
+                <div class="tags"><span>JavaScript</span><span>JSON</span><span>API</span></div>
+              </div>
+              <a class="project-link" href="https://julioseraf.github.io/RestCountriesApis/" target="_blank" rel="noreferrer"
+                aria-label="Ver proyectos en GitHub">↗</a>
+            </div>
+          </article>
+        </div>
+        <p class="project-note">Recuerda sustituir los enlaces de ejemplo por los repositorios reales de cada proyecto.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-inner">
+        <div class="section-label"><span>04</span> CONTACTO</div>
+        <p class="contact-overline">¿TIENES UNA IDEA?</p>
+        <h2>Hagamos algo<br><em>que importe.</em></h2>
+        <p class="contact-description">Busco oportunidades junior, prácticas y colaboraciones en las que pueda aportar,
+          aprender y crecer como desarrollador.</p>
+        <a class="button button-primary" href="mailto:tu-correo@ejemplo.com">Envíame un email <span>↗</span></a>
+        <div class="social-links"><a href="https://github.com/JulioSeraf" target="_blank" rel="noreferrer">GitHub
+            ↗</a><a href="https://www.linkedin.com/in/julio-serafim/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a
+            href="https://juliocv.my.canva.site/" target="_blank" rel="noreferrer">CV↗</a></div>
+      </div>
+      <div class="contact-decoration" aria-hidden="true">J.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#inicio">julio<span>.</span></a>
+      <p>Diseñado y desarrollado con HTML, CSS y JavaScript.</p><span>© <span id="year"></span> Julio</span>
+    </div>
+  </footer>
+</body>
+
+</html>
